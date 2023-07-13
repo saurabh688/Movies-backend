@@ -33,7 +33,7 @@ mongoose
     });
   })
   .catch((error) => {
-    console.log(`Error in database connection`,error);
+    console.log(`Error in database connection-->`,error);
   });
 
   
